@@ -1,7 +1,7 @@
 let name = 'Syimyk';
-alert(name);
+alert('Привет '+name);
 let age = '21';
-alert(age)
+alert('Мне '+age+' лет');
 let str1 = 'САЛАМ,';
-let str2 = 'БИШКЕК!';
+let str2 = ' БИШКЕК!';
 alert(str1+str2);
