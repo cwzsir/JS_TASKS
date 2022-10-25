@@ -6,12 +6,12 @@ let d = 7;
 let result = c + d;
 console.log(result);
 
-let h = 'час';
-let m = 'минута';
-let s = 'секунда';
+let h = 10;
+let m = 52;
+let s = 7;
 console.log(`${h}:${m}:${s}`)
 
-var num = 10;
+let num = 10;
 let num1 = num++;
 let num2 = num++;
 alert(num);
