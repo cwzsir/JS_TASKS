@@ -6,9 +6,9 @@ let d = 7;
 let result = c + d;
 console.log(result);
 
-let h = 10;
-let m = 52;
-let s = 7;
+let h = prompt("час");
+let m = prompt("минута");
+let s = prompt("секунда");
 console.log(`${h}:${m}:${s}`)
 
 let num = 10;
