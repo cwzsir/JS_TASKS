@@ -13,7 +13,7 @@ if(a <= 1 && b >= 3){
     alert(Number(a) - Number(b));
 }
 
-let time = prompt();
+let time = prompt('Введите число от 0 до 59');
 if(time >= 0 && time < 15){
     alert('первая четверть');
 } else if (time >= 15 && time < 29){
@@ -22,4 +22,6 @@ if(time >= 0 && time < 15){
     alert('третья четверть');
 } else if (time >= 45 && time <= 59){
     alert('четвертая четверть');
+} else if (time !== 0 > 59){
+    alert('Введите число от 0 до 59');
 }
